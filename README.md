@@ -3,7 +3,7 @@ L-RPC：轻量级远程调用框架
 
 ##### 核心代码框架包：
 
-> ![1636335053853](E:\2\studyDemo\LRPC\png\1.png)
+> ![1636335053853](LRPC\png\1.png)
 
 ```xml
 loadbanlance:负载平衡
