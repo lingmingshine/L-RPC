@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="89654af4-77b1-428d-a896-20d73afea694" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/top/lrpc/enums/CompressTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/top/lrpc/enums/RpcConfigEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/top/lrpc/enums/RpcErrorMessageEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/top/lrpc/enums/RpcResponseEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/top/lrpc/enums/SerializationTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/top/lrpc/exception/RpcException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/top/lrpc/extension/ExtensionLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/top/lrpc/extension/Holder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/top/lrpc/extension/SPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/top/lrpc/factory/SingletionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/top/lrpc/utils/CustomThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/top/lrpc/utils/PropertiesFileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/top/lrpc/utils/RuntimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/top/lrpc/utils/ThreadPoolFactoryUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/top/lrpc/enums/CompressTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/top/lrpc/enums/RpcConfigEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/top/lrpc/enums/RpcErrorMessageEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/top/lrpc/enums/RpcResponseEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/top/lrpc/enums/SerializationTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/top/lrpc/exception/RpcException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/top/lrpc/extension/ExtensionLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/top/lrpc/extension/Holder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/top/lrpc/extension/SPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/top/lrpc/factory/SingletionFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/top/lrpc/utils/CustomThreadPoolConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/top/lrpc/utils/PropertiesFileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/top/lrpc/utils/RuntimeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/top/lrpc/utils/ThreadPoolFactoryUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/L-RPC-Core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/annotation/LReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/annotation/LScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/annotation/LService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/compress/Compress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/compress/gzip/GZipCompressImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/config/CustomShutdownHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/config/RpcServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/handler/RpcRequestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/loadbanlance/AbstractLoadBanlance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/loadbanlance/LoadBanlance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/loadbanlance/handler/ConsistentHashLoadBanlance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/provider/ServerProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/provider/impl/ZKServiceProviderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/proxy/RpcClientProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/registry/ServiceDiscovery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/registry/ServiceRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/registry/util/CuratorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/registry/zk/ZKServiceDiscoveryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/registry/zk/ZKServiceRegistryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/RpcRequestTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/coder/LRpcMessageDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/coder/LRpcMessageEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/dto/LRpcMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/dto/LRpcRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/dto/LRpcResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/client/ChannelProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/client/FliterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/client/NettyRpcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/client/NettyRpcClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/client/constants/RpcConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/server/NettyRpcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/server/NettyRpcServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/socket/SocketClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/socket/SocketRpcRequestHandlerRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/socket/SocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/serializer/Serializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/serializer/kryo/KryoSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/spring/CustomScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/spring/CustomScannerRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/spring/SpringBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.compress.Compress" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.loadBanlance.LoadBanlance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.registry.ServiceDiscovery" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.registry.ServiceRegistry" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.remoting.transport.RpcRequestTransport" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.serializer.Serializer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/L-RPC-Core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/META-INF/L-RPC-Core.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/META-INF/extensions/top.lrpc.compress.Compress" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/META-INF/extensions/top.lrpc.loadBanlance.LoadBanlance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/META-INF/extensions/top.lrpc.registry.ServiceDiscovery" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/META-INF/extensions/top.lrpc.registry.ServiceRegistry" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/META-INF/extensions/top.lrpc.remoting.transport.RpcRequestTransport" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/META-INF/extensions/top.lrpc.serializer.Serializer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/annotation/LReference.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/annotation/LScan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/annotation/LService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/compress/Compress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/compress/gzip/GZipCompressImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/config/CustomShutdownHook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/config/RpcServiceConfig$RpcServiceConfigBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/config/RpcServiceConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/handler/RpcRequestHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/loadbanlance/AbstractLoadBanlance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/loadbanlance/LoadBanlance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/loadbanlance/handler/ConsistentHashLoadBanlance$ConsistentHashSelector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/loadbanlance/handler/ConsistentHashLoadBanlance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/provider/ServerProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/provider/impl/ZKServiceProviderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/proxy/RpcClientProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/registry/ServiceDiscovery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/registry/ServiceRegistry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/registry/util/CuratorUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/registry/zk/ZKServiceDiscoveryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/registry/zk/ZKServiceRegistryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/RpcRequestTransport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/coder/LRpcMessageDecoder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/coder/LRpcMessageEncoder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/dto/LRpcMessage$LRpcMessageBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/dto/LRpcMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/dto/LRpcRequest$LRpcRequestBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/dto/LRpcRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/dto/LRpcResponse$LRpcResponseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/dto/LRpcResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/netty/client/ChannelProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/netty/client/FliterRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/netty/client/NettyRpcClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/netty/client/NettyRpcClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/netty/client/NettyRpcClientHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/netty/client/constants/RpcConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/netty/server/NettyRpcServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/netty/server/NettyRpcServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/netty/server/NettyRpcServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/socket/SocketClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/socket/SocketRpcRequestHandlerRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/remoting/transport/socket/SocketServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/serializer/Serializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/serializer/kryo/KryoSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/spring/CustomScanner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/spring/CustomScannerRegistry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/classes/top/lrpc/spring/SpringBeanPostProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L-RPC-Core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LRPC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/git-hooks/pre-commit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/core/target/" />
+    <ignored path="$PROJECT_DIR$/L-RPC-core/target/" />
+    <ignored path="$PROJECT_DIR$/Common/target/" />
+    <ignored path="$PROJECT_DIR$/test-client/target/" />
+    <ignored path="$PROJECT_DIR$/hello-api/target/" />
+    <ignored path="$PROJECT_DIR$/test-server/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.compress.Compress">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="44" selection-start-column="44" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/top/lrpc/extension/ExtensionLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2132">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/proxy/RpcClientProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1456">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/coder/LRpcMessageDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="754">
+              <caret line="43" column="31" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-client/src/main/java/top/lrpc/NettyClientMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-client/src/main/java/top/lrpc/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/client/NettyRpcClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="151" column="7" lean-forward="true" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/server/NettyRpcServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1898">
+              <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/coder/LRpcMessageEncoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1040">
+              <caret line="52" column="70" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/dto/LRpcMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Kotlin Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CustomerThreadPoolConfig</find>
+      <find>InetSocketAddress</find>
+      <find>ServiceDiscovery</find>
+      <find>serviceDiscovery</find>
+      <find>SPI</find>
+      <find>getExtension</find>
+      <find>createExtension</find>
+      <find>ZKServiceProviderImpl</find>
+      <find>ZkServiceProviderImpl</find>
+      <find>bootstrap</find>
+      <find>channelProvider</find>
+      <find>getChannel</find>
+      <find>complete</find>
+      <find>fliterRequest</find>
+      <find>resultFuture</find>
+      <find>log</find>
+      <find>被创建</find>
+      <find>ZKServiceDiscoveryImpl</find>
+      <find>extensionClasses</find>
+      <find>CuratorUtils</find>
+      <find>getChildrenNodes</find>
+      <find>lookupService</find>
+      <find>sendRpcRequest</find>
+      <find>invoke</find>
+      <find>PropertiesFileUtil</find>
+      <find>INTERFACE_NAME</find>
+      <find>KryoSerializer</find>
+      <find>protostuff</find>
+      <find>LRpcMessageDecoder</find>
+      <find>LRpcMessageEncoder</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>CustomThreadPoolConfig</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/transport/coder/LRpcMessageEncoder.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/transport/netty/constants/RpcConstants.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/transport/coder/LRpcMessageDecoder.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/transport/netty/NettyRpcClient.java" />
+        <option value="$PROJECT_DIR$/Common/src/main/java/top/lrpc/utils/RuntimeUtil.java" />
+        <option value="$PROJECT_DIR$/Common/src/main/java/top/lrpc/utils/ThreadPoolFactoryUtils.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/serializer/kryo/KryoSerializer.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/annotation/LReference.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/proxy/RpcClientProxy.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/spring/SpringBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/spring/CustomScanner.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/spring/CustomScannerRegistrar.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/transport/netty/client/FliterRequest.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/transport/netty/client/NettyRpcClientHandler.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/transport/netty/client/NettyRpcClient.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/transport/netty/server/NettyRpcServer.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/transport/netty/server/NettyRpcServerHandler.java" />
+        <option value="$PROJECT_DIR$/test-client/src/main/java/SocketClientMain.java" />
+        <option value="$PROJECT_DIR$/hello-api/src/main/java/top/lrpc/Hello.java" />
+        <option value="$PROJECT_DIR$/test-server/src/main/java/top/lrpc/impl/HelloServiceImpl2.java" />
+        <option value="$PROJECT_DIR$/test-server/src/main/java/top/lrpc/impl/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/annotation/LService.java" />
+        <option value="$PROJECT_DIR$/test-server/src/main/java/top/lrpc/SocketServerMain.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF.extensions/top.lrpc.registry.ServiceDiscovery" />
+        <option value="$PROJECT_DIR$/test-client/src/main/resources/rpc.properties" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.serializer.Serializer" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.registry.ServiceDiscovery" />
+        <option value="$PROJECT_DIR$/test-client/src/main/java/top/lrpc/SocketClientMain.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/annotation/LScan.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/spring/CustomScannerRegistry.java" />
+        <option value="$PROJECT_DIR$/Common/src/main/java/top/lrpc/extension/ExtensionLoader.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.registry.ServiceRegistry" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/registry/zk/ZKServiceRegistryImpl.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.loadBanlance.LoadBanlance" />
+        <option value="$PROJECT_DIR$/Common/src/main/java/top/lrpc/utils/PropertiesFileUtil.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/registry/zk/ZKServiceDiscoveryImpl.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/provider/impl/ZKServiceProviderImpl.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/transport/dto/LRpcRequest.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/transport/dto/LRpcResponse.java" />
+        <option value="$PROJECT_DIR$/hello-api/src/main/java/top/lrpc/HelloE.java" />
+        <option value="$PROJECT_DIR$/test-server/src/main/java/top/lrpc/NettyServerMain.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.remoting.transport.RpcRequestTransport" />
+        <option value="$PROJECT_DIR$/test-client/src/main/java/top/lrpc/NettyClientMain.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/client/ChannelProvider.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/client/NettyRpcClientHandler.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/server/NettyRpcServerHandler.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/compress/gzip/GZipCompressImpl.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.compress.Compress" />
+        <option value="$PROJECT_DIR$/test-client/src/main/java/top/lrpc/HelloController.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/server/NettyRpcServer.java" />
+        <option value="$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/client/NettyRpcClient.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../miaosha_base/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="E:\2\studyDemo\miaosha_base\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="L-RPC" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="L-RPC-Core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="L-RPC-Core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="L-RPC-Core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LRPC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LRPC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LRPC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LRPC" type="462c0819:PsiDirectoryNode" />
+              <item name="L-RPC-Core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LRPC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LRPC" type="462c0819:PsiDirectoryNode" />
+              <item name="L-RPC-Core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LRPC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LRPC" type="462c0819:PsiDirectoryNode" />
+              <item name="L-RPC-Core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="top.lrpc.remoting.transport.socket" />
+      <recent name="top.lrpc.annotation.transport.dto" />
+      <recent name="top.lrpc.annotation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2\studyDemo\LRPC\test-client\target\classes" />
+      <recent name="E:\2\studyDemo\LRPC\test-server\target\classes" />
+      <recent name="E:\2\studyDemo\LRPC\test-server\src\main\resources" />
+      <recent name="E:\2\studyDemo\LRPC\test-server\src\main\java\top\lrpc\impl" />
+      <recent name="E:\2\studyDemo\LRPC" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.lrpc.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2\studyDemo\LRPC\L-RPC-Core\src\main\resources\META-INF\extensions" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.NettyClientMain">
+    <configuration name="NettyClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.lrpc.NettyClientMain" />
+      <module name="test-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.lrpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.lrpc.NettyServerMain" />
+      <module name="test-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.lrpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.lrpc.SocketClientMain" />
+      <module name="test-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.lrpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.lrpc.SocketServerMain" />
+      <module name="test-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.lrpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NettyServerMain" />
+        <item itemvalue="Application.NettyClientMain" />
+        <item itemvalue="Application.SocketClientMain" />
+        <item itemvalue="Application.SocketServerMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89654af4-77b1-428d-a896-20d73afea694" name="Default Changelist" comment="" />
+      <created>1635141799690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635141799690</updated>
+      <workItem from="1635141804026" duration="28584000" />
+      <workItem from="1635297638244" duration="19811000" />
+      <workItem from="1635341779205" duration="11548000" />
+      <workItem from="1635421287587" duration="5185000" />
+      <workItem from="1635822082969" duration="5772000" />
+      <workItem from="1636006857943" duration="7033000" />
+      <workItem from="1636023602337" duration="1939000" />
+      <workItem from="1636095993239" duration="6165000" />
+      <workItem from="1636103484098" duration="1172000" />
+      <workItem from="1636332708953" duration="453000" />
+      <workItem from="1636333991103" duration="271000" />
+    </task>
+    <task id="LOCAL-00001" summary="测试代码">
+      <created>1636104478439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636104478440</updated>
+    </task>
+    <task id="LOCAL-00002" summary="测试代码">
+      <created>1636334084417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636334084418</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="87933000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49628252" visible="true" weight="0.26072875" />
+      <window_info id="Structure" order="1" sideWeight="0.5037175" side_tool="true" weight="0.33036438" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283859" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34508348" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32467532" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3283859" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32899627" />
+      <window_info anchor="bottom" id="SonarLint" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.6003717" />
+      <window_info anchor="bottom" id="MyBatis Log" order="14" />
+      <window_info anchor="bottom" id="Spring" order="15" weight="0.32899627" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.32899627" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.535316" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.48016194" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Codota" order="5" />
+      <window_info anchor="right" id="leetcode" order="6" side_tool="true" weight="0.32955465" />
+      <window_info anchor="right" id="Word Book" order="7" side_tool="true" />
+      <window_info anchor="right" id="BPMNPalette" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32955465" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="RestServices" order="11" weight="0.32955465" />
+      <window_info anchor="right" id="CDI" order="12" />
+      <window_info anchor="right" id="Bean Validation" order="13" />
+      <window_info anchor="right" id="Mybatis datasource" order="14" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49628252" visible="true" weight="0.28421053" />
+      <window_info id="Structure" order="1" sideWeight="0.5037175" side_tool="true" weight="0.33036438" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283859" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2987013" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.61524165" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899627" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32899627" />
+      <window_info anchor="bottom" id="SonarLint" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.51858735" />
+      <window_info anchor="bottom" id="MyBatis Log" order="14" />
+      <window_info anchor="bottom" id="Spring" order="15" weight="0.32899627" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.32899627" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.535316" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.48016194" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Codota" order="5" />
+      <window_info anchor="right" id="leetcode" order="6" side_tool="true" />
+      <window_info anchor="right" id="Word Book" order="7" side_tool="true" />
+      <window_info anchor="right" id="BPMNPalette" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32955465" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="RestServices" order="11" />
+      <window_info anchor="right" id="CDI" order="12" />
+      <window_info anchor="right" id="Bean Validation" order="13" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试代码" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/proxy/RpcClientProxy.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="rpcResponse" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>clazz.newInstance()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>zkClient.getChildren()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test-server/src/main/java/top/lrpc/impl/HelloServiceImpl2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.registry.ServiceRegistry">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.registry.ServiceDiscovery">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/top/lrpc/extension/Holder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.loadBanlance.LoadBanlance">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/registry/ServiceDiscovery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-server/src/main/resources/rpc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/registry/util/CuratorUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221bak/src.zip!/java/net/InetAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="1470" column="30" selection-start-line="1470" selection-start-column="30" selection-end-line="1470" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/socket/SocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/provider/ServerProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-server/src/main/java/top/lrpc/SocketServerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-client/src/main/java/top/lrpc/SocketClientMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-client/src/main/resources/rpc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-server/target/classes/rpc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/registry/zk/ZKServiceRegistryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/dto/LRpcRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="14" column="20" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/socket/SocketClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/dto/LRpcResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/socket/SocketRpcRequestHandlerRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/serializer/kryo/KryoSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/top/lrpc/utils/PropertiesFileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-server/src/main/java/top/lrpc/NettyServerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-api/src/main/java/top/lrpc/HelloE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-api/src/main/java/top/lrpc/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-server/src/main/java/top/lrpc/impl/HelloServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.remoting.transport.RpcRequestTransport">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/RpcRequestTransport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/client/ChannelProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/provider/impl/ZKServiceProviderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/top/lrpc/factory/SingletionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/registry/zk/ZKServiceDiscoveryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../miaosha_base/apache-maven-3.6.0/maven/local/org/springframework/spring-beans/5.3.8/spring-beans-5.3.8.jar!/org/springframework/beans/BeanUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/spring/SpringBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/client/constants/RpcConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/top/lrpc/enums/SerializationTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/client/NettyRpcClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="54" column="74" selection-start-line="54" selection-start-column="74" selection-end-line="54" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/server/NettyRpcServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="37" column="72" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.serializer.Serializer">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/compress/Compress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/compress/gzip/GZipCompressImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/resources/META-INF/extensions/top.lrpc.compress.Compress">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/top/lrpc/extension/ExtensionLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2132">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/proxy/RpcClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1456">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/coder/LRpcMessageDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-client/src/main/java/top/lrpc/NettyClientMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-client/src/main/java/top/lrpc/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/server/NettyRpcServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1898">
+          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/coder/LRpcMessageEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="52" column="70" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/dto/LRpcMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L-RPC-Core/src/main/java/top/lrpc/remoting/transport/netty/client/NettyRpcClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="151" column="7" lean-forward="true" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Common</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.esotericsoftware:kryo:4.0.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
