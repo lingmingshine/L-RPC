@@ -1,0 +1,2 @@
+socket=top.lrpc.remoting.transport.socket.SocketClient
+netty=top.lrpc.remoting.transport.netty.client.NettyRpcClient
