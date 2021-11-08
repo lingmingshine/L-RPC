@@ -13,7 +13,7 @@ loadbanlance:负载平衡
 proxy:动态代理
 registry：注册服务
 remoting.transport:socket和netty两种方式实现远程调用通信
-serializer:序列化功能,提供SPI机制
+serializer:序列化
 spring:依托spring的自定义注解实现
 主要是通过remoting.transport包下面两种socket和netty实现方式，进行辐射全部的代码
 ```
